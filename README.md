@@ -1,7 +1,8 @@
 # Active Directory Home Lab — Windows Server 2022 + Windows 11
 
 **Author:** Muhammad Aun Hasan · **Built:** 12–17 October 2026 · **Platform:** VMware Workstation
-**Disclaimer: used AI fro report writing and Readme, conducted the project myself as well as the images and scripts were made by me**
+
+**Disclaimer:** used AI fro report writing and Readme, conducted the project myself as well as the images and scripts were made by me
 
 I built a small company network from scratch inside virtual machines: a Windows Server 2022 **Domain Controller** (the server that stores every user, computer and rule for the network) and a Windows 11 **workstation** joined to it. I then set it up the way a real IT team would — departments, user accounts, a security group, a protected file share, and **Group Policy** (rules the server pushes to every computer automatically) — and tested that each piece actually works. I also wrote a PowerShell script to create new users automatically.
 
